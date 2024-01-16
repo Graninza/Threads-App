@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "username": "giorgos",
+      "handle": "codegiorgos",
+      "bio": "I learn to code in 2023!!!",
+      "link": "https://github.com/Graninza",
+      "img": "https://i.imgur.com/eUZv0ec.jpg",
+      "instagram_url": "https://www.instagram.com/g.grani/",
+      "followers": [
+        {
+          "user_uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "user_uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a",
+      "username": "ntinos",
+      "handle": "codentinos",
+      "bio": "ntinos ntinos",
+      "link": "https://github.com",
+      "img": "https://i.imgur.com/PBL6Hz3.jpeg",
+      "instagram_url": "https://instagram.com",
+      "followers": [
+        {
+          "user_uuid": "1245a288-cb24-4171-ac6c-b96c11598c34"
+        },
+        {
+          "user_uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9",
+      "username": "lakis",
+      "handle": "codelakis",
+      "bio": "laaaakis laakis laaaaakis",
+      "link": "https://github.com",
+      "img": "https://i.imgur.com/P8ItB2x.jpeg",
+      "instagram_url": "https://instagram.com",
+      "followers": [
+        {
+          "user_uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "user_uuid": "1245a288-cb24-4171-ac6c-b96c11598c34"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 1,
+      "timestamp": "Mon Jan 15 2024 13:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello, world!!!",
+      "likes": [
+        {
+          "uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Mon Jan 15 2024 15:53:03 GMT+0200",
+      "thread_from": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "It's cold today!!!",
+      "likes": [
+        {
+          "uuid": "1245a288-cb24-4171-ac6c-b96c11598c34"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "timestamp": "Mon Jan 15 2024 16:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a",
+      "reply_to": 2,
+      "text": "Very!!!",
+      "likes": [
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "timestamp": "Tue Jan 16 2024 13:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Best day ever!!!",
+      "likes": [
+        {
+          "uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "timestamp": "Tue Jan 16 2024 21:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Night out today!!",
+      "likes": [
+        {
+          "uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "timestamp": "Fri Jan 19 2024 21:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Game night people!!!!!!!!",
+      "likes": [
+        {
+          "uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "timestamp": "Sun Jan 21 2024 14:53:03 GMT+0200",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Relax day!!!",
+      "likes": [
+        {
+          "uuid": "6d6fc9a2-c491-490d-8cae-1d35d35afb2a"
+        },
+        {
+          "uuid": "b4782d96-68ee-4bfd-9dc6-fe43ee8d22f9"
+        }
+      ]
+    },
+    {
+      "id": "ef00",
+      "timestamp": "2024-01-16T16:09:46.523Z",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "reply_to": 1,
+      "text": "nooo",
+      "likes": []
+    },
+    {
+      "id": "bbdb",
+      "timestamp": "2024-01-16T16:14:34.280Z",
+      "thread_from": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "thread_to": "1245a288-cb24-4171-ac6c-b96c11598c34",
+      "reply_to": null,
+      "text": "new post powaaaa",
+      "likes": []
+    }
+  ]
+}
